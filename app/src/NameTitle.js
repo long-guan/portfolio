@@ -2,7 +2,7 @@ function NameTitle() {
     return (
         <div>
             <h1>Long Guan</h1>
-            <h3>Full Stack Software Engineer</h3>
+            <h5>Full Stack Software Engineer</h5>
         </div>
     )
 }

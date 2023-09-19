@@ -1,4 +1,26 @@
 * {
-  background-color: rgb(10, 10, 39);
+  font-family: sans-serif;
+}
+
+#root, body {
+  background-color: rgb(14, 14, 49);
   color: rgb(210, 207, 207);
+}
+
+.project-card:hover {
+  background-color: rgb(55, 55, 161);
+
+  color: white;
+}
+
+.project-card {
+  border-radius: 8px;
+}
+
+#github-logo:hover {
+  scale: 1.25;
+}
+
+.pointer:hover {
+  cursor: pointer;
 }

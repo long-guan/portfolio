@@ -1,18 +1,22 @@
 import './App.css';
 import NameTitle from './NameTitle';
 import Navbar from './Navbar';
-import Body from './Body';
+import About from './About';
+import Projects from './Projects';
+import Resume from './Resume';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container pt-5">
       <div className="row">
-        <div className="col">
+        <div className="col-4">
           <NameTitle />
           <Navbar />
         </div>
-        <div className="col">
-          <Body />
+        <div className="col-8">
+          <About />
+          <Projects />
+          <Resume />
         </div>
       </div>
     </div>
