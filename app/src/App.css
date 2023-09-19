@@ -4,12 +4,11 @@
 
 #root, body {
   background-color: rgb(14, 14, 49);
-  color: rgb(210, 207, 207);
+  color: rgb(175, 173, 173);
 }
 
 .project-card:hover {
   background-color: rgb(55, 55, 161);
-
   color: white;
 }
 
@@ -23,4 +22,13 @@
 
 .pointer:hover {
   cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: rgb(13, 202, 240);
 }
