@@ -8,12 +8,14 @@
 }
 
 .project-card:hover {
-  background-color: rgb(55, 55, 161);
+  background-color: rgb(13, 110, 253);
   color: white;
 }
 
 .project-card {
   border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 #github-logo:hover {
@@ -52,4 +54,24 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(175, 173, 173);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+#nav-list {
+  width: 150px;
+}
+
+.padding-top {
+  padding-top: 48px;
+}
+
+.padding-bot {
+  padding-bottom: 48px;
+}
+
+#skills-style {
+  gap: 5px;
+}
+
+#skills-style>span {
+  font-size: 15px;
 }
