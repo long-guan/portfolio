@@ -5,7 +5,7 @@ import classic_games from './assets/classic_games.png';
 
 function Projects() {
     return (
-        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example" tabIndex="0">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example separation" tabIndex="0">
             <h4 id="projects">Projects</h4>
             <div className="row project-card pt-2 pb-2">
                 <div onClick={()=> {window.open("https://good-coders.gitlab.io/module3-project-gamma", "_blank")}} className="col-4 d-flex pointer">
