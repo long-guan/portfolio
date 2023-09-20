@@ -1,24 +1,15 @@
 import './App.css';
-import NameTitle from './NameTitle';
-import Navbar from './Navbar';
-import About from './About';
-import Projects from './Projects';
-import Resume from './Resume';
+import Portfolio from './Portfolio';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container pt-5">
-      <div className="row">
-        <div className="col-4">
-          <NameTitle />
-          <Navbar />
-        </div>
-        <div className="col-8">
-          <About />
-          <Projects />
-          <Resume />
-        </div>
-      </div>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Portfolio />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
