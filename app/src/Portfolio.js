@@ -15,7 +15,7 @@ function Portfolio() {
                     <Navbar />
                     <SocialMedia />
                 </div>
-                <div data-bs-spy="scroll" data-bs-target="#nav-list" data-bs-offset="20" className="col-8 padding-bot" tabIndex="0">
+                <div data-bs-spy="scroll" data-bs-target="#nav-list" data-bs-offset="5" className="col-8 padding-bot" tabIndex="0">
                     <About />
                     <Projects />
                     <MySkills />
