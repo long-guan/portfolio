@@ -1,18 +1,26 @@
 function Navbar() {
+    const onPress = (e) => {
+        e.preventDefault();
+        const target = window.document.getElementById(
+          e.currentTarget.href.split("#")[1]
+        );
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <div>
-            <div id="nav-list" className="sticky-top">
-                <ul className="nav flex-column nav-pills menu-sidebar">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#skills">My Skills</a>
-                    </li>
-                </ul>
+            <div className="d-flex flex-column gap-2" id="nav-list">
+                <a onClick={(e) => onPress(e)} href="#about">
+                    <div data-to-scrollspy-id="about">About Me</div>
+                </a>
+                <a onClick={(e) => onPress(e)} href="#projects">
+                    <div data-to-scrollspy-id="projects">Projects</div>
+                </a>
+                <a onClick={(e) => onPress(e)} href="#skills">
+                    <div data-to-scrollspy-id="skills">My Skills</div>
+                </a>
             </div>
         </div>
     )

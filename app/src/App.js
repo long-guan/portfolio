@@ -1,16 +1,15 @@
 import './App.css';
+import React from 'react';
 import Portfolio from './Portfolio';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Routes>
-          <Route exact path="/" render={<Portfolio />}></Route>
+            <Route exact path="/" element={<Portfolio/>}></Route>
         </Routes>
-      </BrowserRouter>
-    </div>
+      </HashRouter>
   );
 }
 

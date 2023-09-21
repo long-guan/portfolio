@@ -1,7 +1,7 @@
 function MySkills() {
     return (
         <div className="separation">
-                <h4 className="padding-top" id="skills">My Skills</h4>
+                <h4 id="skills" className="padding-top" >My Skills</h4>
                 <div id="skills-style" className="d-flex flex-wrap">
                     <span className="badge rounded-pill text-bg-info">HTML</span>
                     <span className="badge rounded-pill text-bg-info">CSS</span>

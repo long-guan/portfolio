@@ -35,7 +35,7 @@
   color: white;
 }
 
-.link:hover {
+.link:hover, #nav-list>a:hover {
   color: rgb(13, 202, 240);
 }
 
@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #nav-list {
-  width: 150px;
+  width: 100px;
 }
 
 .padding-top {
@@ -74,4 +74,14 @@ body::-webkit-scrollbar-thumb {
 
 #skills-style>span {
   font-size: 15px;
+}
+
+.active {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nav-list>a {
+  color: white;
+  text-decoration: none;
 }
