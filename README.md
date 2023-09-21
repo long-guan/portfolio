@@ -7,5 +7,5 @@ I decided against using a portfolio template because I wanted more freedom to be
 
 ## Future Goals
 * Add an experience section once I am employed
-* Add a contact me section consisting of a form that viewers allows the viewers to message me
+* Add a contact me section consisting of a form that allows the viewers to message me
 * Refactor the site to be mobile friendly
