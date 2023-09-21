@@ -5,9 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route exact path="/" element={<Portfolio />}></Route>
+          <Route exact path="/" render={<Portfolio />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
