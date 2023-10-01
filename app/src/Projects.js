@@ -32,10 +32,10 @@ function Projects() {
                 </div>
                 <div className="col-8">
                     <div style={{height:"50px"}} className="d-flex align-items-center justify-content-between">
-                       <h5 className="pointer" onClick={()=> {window.open("https://long-guan.github.io/classic-games/", "_blank")}}>Games From Long (Ago)</h5>
+                       <h5 className="pointer" onClick={()=> {window.open("https://long-guan.github.io/classic-games/", "_blank")}}>Long Loved Classic Games</h5>
                        <img className="pointer" onClick={()=> {window.open("https://github.com/long-guan/classic-games", "_blank")}} id="github-logo" style={{ width: "30px", height: "30px"}} src={github_mark_white} alt="page"/>
                     </div>
-                    <p className="pointer" onClick={()=> {window.open("https://long-guan.github.io/classic-games/", "_blank")}}>A web application built with vanilla HTML, CSS, and JS containing the games BattleShip and Tic Tac Toe.
+                    <p className="pointer" onClick={()=> {window.open("https://long-guan.github.io/classic-games/", "_blank")}}>A web application to play Battleship and Tic Tac Toe built with vanilla HTML, CSS, and JS.
                     </p>
                     <div className="d-flex flex-wrap" style={{gap: "5px"}}>
                         <span className="badge rounded-pill text-bg-info">HTML</span>
