@@ -8,12 +8,12 @@ function Projects() {
             <h4 id="projects" className="padding-top">Projects</h4>
             <div className="row project-card">
                 <div onClick={()=> {window.open("https://good-coders.gitlab.io/module3-project-gamma", "_blank")}} className="col-4 d-flex pointer">
-                    <img style={{ width: "100%", height: "100%"}} src={green_beans} alt="page"/>
+                    <img style={{ width: "100%", height: "100%"}} src={green_beans} alt="deployed-page"/>
                 </div>
                 <div className="col-8">
                     <div style={{height:"50px"}} className="d-flex align-items-center justify-content-between">
                        <h5 className="pointer" onClick={()=> {window.open("https://good-coders.gitlab.io/module3-project-gamma", "_blank")}}>Green Beings</h5>
-                       <img className="pointer" onClick={()=> {window.open("https://github.com/long-guan/green-beings", "_blank")}} id="github-logo" style={{ width: "30px", height: "30px"}} src={github_mark_white} alt="page"/>
+                       <img className="pointer" onClick={()=> {window.open("https://github.com/long-guan/green-beings", "_blank")}} id="github-logo" style={{ width: "30px", height: "30px"}} src={github_mark_white} alt="GitHub"/>
                     </div>
                     <p className="pointer" onClick={()=> {window.replace("https://good-coders.gitlab.io/module3-project-gamma")}}>A web application that enables users to establish and manage environmental-focused communities, within which users can organize events aimed at improving various environmental aspects such as air quality or waste reduction.</p>
                     <div className="d-flex flex-wrap" style={{gap: "5px"}}>
@@ -33,7 +33,7 @@ function Projects() {
                 <div className="col-8">
                     <div style={{height:"50px"}} className="d-flex align-items-center justify-content-between">
                        <h5 className="pointer" onClick={()=> {window.open("https://long-guan.github.io/classic-games/", "_blank")}}>Long Loved Classic Games</h5>
-                       <img className="pointer" onClick={()=> {window.open("https://github.com/long-guan/classic-games", "_blank")}} id="github-logo" style={{ width: "30px", height: "30px"}} src={github_mark_white} alt="page"/>
+                       <img className="pointer" onClick={()=> {window.open("https://github.com/long-guan/classic-games", "_blank")}} id="github-logo" style={{ width: "30px", height: "30px"}} src={github_mark_white} alt="GitHub"/>
                     </div>
                     <p className="pointer" onClick={()=> {window.open("https://long-guan.github.io/classic-games/", "_blank")}}>A web application to play Battleship and Tic Tac Toe built with vanilla HTML, CSS, and JS.
                     </p>
