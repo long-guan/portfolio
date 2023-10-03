@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div>
+        <div style={{textAlign: "center", marginBottom: "10px"}}>
             Dockerized and built with React and Bootstrap. Deployed on GitHub. ✌️
         </div>
     )

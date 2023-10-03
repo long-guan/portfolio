@@ -1,24 +1,24 @@
 function MySkills() {
     return (
         <div className="separation">
-                <h4 id="skills" className="padding-top" >My Skills</h4>
+                <h2 id="skills" className="padding-top" >Skills 🛠️</h2>
                 <div id="skills-style" className="d-flex flex-wrap">
-                    <span className="badge rounded-pill text-bg-info">HTML</span>
-                    <span className="badge rounded-pill text-bg-info">CSS</span>
-                    <span className="badge rounded-pill text-bg-info">JavaScript</span>
-                    <span className="badge rounded-pill text-bg-info">Python</span>
-                    <span className="badge rounded-pill text-bg-info">React</span>
-                    <span className="badge rounded-pill text-bg-info">Bootstrap</span>
-                    <span className="badge rounded-pill text-bg-info">FastAPI</span>
-                    <span className="badge rounded-pill text-bg-info">Django</span>
-                    <span className="badge rounded-pill text-bg-info">PostgreSQL</span>
-                    <span className="badge rounded-pill text-bg-info">Git</span>
-                    <span className="badge rounded-pill text-bg-info">Github</span>
-                    <span className="badge rounded-pill text-bg-info">Gitlab</span>
-                    <span className="badge rounded-pill text-bg-info">Docker</span>
-                    <span className="badge rounded-pill text-bg-info">Microservices</span>
-                    <span className="badge rounded-pill text-bg-info">RESTful API</span>
-                    <span className="badge rounded-pill text-bg-info">Domain-Driven Design</span>
+                    <span className="skills">HTML</span>
+                    <span className="skills">CSS</span>
+                    <span className="skills">JavaScript</span>
+                    <span className="skills">Python</span>
+                    <span className="skills">React</span>
+                    <span className="skills">Bootstrap</span>
+                    <span className="skills">FastAPI</span>
+                    <span className="skills">Django</span>
+                    <span className="skills">PostgreSQL</span>
+                    <span className="skills">Git</span>
+                    <span className="skills">GitHub</span>
+                    <span className="skills">GitLab</span>
+                    <span className="skills">Docker</span>
+                    <span className="skills">Microservices</span>
+                    <span className="skills">RESTful API</span>
+                    <span className="skills">Domain-Driven Design</span>
                 </div>
         </div>
     )

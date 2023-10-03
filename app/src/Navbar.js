@@ -1,3 +1,5 @@
+import LongGuan_Resume from './assets/LongGuan_Resume.pdf';
+
 function Navbar() {
     const onPress = (e) => {
         e.preventDefault();
@@ -10,18 +12,17 @@ function Navbar() {
     };
 
     return (
-        <div>
-            <div className="d-flex flex-column gap-2" id="nav-list">
-                <a onClick={(e) => onPress(e)} href="#about">
-                    <div data-to-scrollspy-id="about">About Me</div>
-                </a>
-                <a onClick={(e) => onPress(e)} href="#projects">
-                    <div data-to-scrollspy-id="projects">Projects</div>
-                </a>
-                <a onClick={(e) => onPress(e)} href="#skills">
-                    <div data-to-scrollspy-id="skills">My Skills</div>
-                </a>
-            </div>
+        <div className="d-flex align-items-center gap-3" id="nav-list">
+            <a onClick={(e) => onPress(e)} href="#about">
+                <div data-to-scrollspy-id="about">About Me</div>
+            </a>
+            <a onClick={(e) => onPress(e)} href="#projects">
+                <div data-to-scrollspy-id="projects">Projects</div>
+            </a>
+            <a onClick={(e) => onPress(e)} href="#skills">
+                <div data-to-scrollspy-id="skills">Skills</div>
+            </a>
+            <a className="pointer" href={LongGuan_Resume} target="_blank" rel="noreferrer">Resume</a>
         </div>
     )
 }
