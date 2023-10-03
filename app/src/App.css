@@ -99,6 +99,10 @@
   animation: 3s change-color 1;
 }
 
+#my-name:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
 @keyframes change-color {
   from {
     color: white;
@@ -107,4 +111,16 @@
   to {
     color: rgb(13, 110, 253);
   }
+}
+
+#snowboard:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❄️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#camping:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥾</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+#gopro:hover {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✈️</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
