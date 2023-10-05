@@ -1,6 +1,6 @@
-function MySkills() {
+function MySkills(props) {
     return (
-        <div className="separation">
+        <div className={"separation " + props.mode}>
                 <h2 id="skills" className="padding-top" >Skills 🛠️</h2>
                 <div id="skills-style" className="d-flex flex-wrap">
                     <span className="skills">HTML</span>

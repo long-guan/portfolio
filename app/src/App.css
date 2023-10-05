@@ -9,11 +9,7 @@
   box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
 }
 
-#github-logo:hover {
-  scale: 1.25;
-}
-
-#linkedin-logo:hover {
+#github-logo:hover, #linkedin-logo:hover, #darkMode:hover {
   scale: 1.25;
 }
 
@@ -75,7 +71,7 @@
 
 #nav-list>a {
   text-decoration: none;
-  color: black;
+  color: rgb(13, 110, 253);
 }
 
 #navbar {
@@ -88,10 +84,7 @@
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.navbar-light-mode {
-  background-color: white;
+  height: 52px;
 }
 
 .body-container {
@@ -130,3 +123,32 @@
 #gopro:hover {
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✈️</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
+
+/* FOR DARK AND LIGHT MODE */
+
+.navbar-light-mode {
+  background-color: white;
+}
+
+.navbar-light-mode>hr {
+  background-color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode>hr {
+  background-color: white;
+}
+
+.github-logo-white {
+  filter: invert(100%) sepia(79%) saturate(0%) hue-rotate(198deg) brightness(110%) contrast(100%);
+}
+
+.dark-mode>div#skills-style>span {
+  color: black;
+}
+
+/* END OF DARK AND LIGHT MODE */
