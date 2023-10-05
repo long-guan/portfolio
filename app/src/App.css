@@ -6,6 +6,7 @@
   border-radius: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
+  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
 }
 
 #github-logo:hover {
@@ -60,7 +61,6 @@
 
 .skills {
   background-color: rgb(208, 207, 207);
-  color: black;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-left: 5px;
@@ -79,12 +79,18 @@
 }
 
 #navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-spacing {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  position: fixed;
-  width: 100%;
+}
+
+.navbar-light-mode {
   background-color: white;
 }
 
