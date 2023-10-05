@@ -6,7 +6,12 @@
   border-radius: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
-  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+  margin-bottom: 10px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
+.project-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
 
 #github-logo:hover, #linkedin-logo:hover, #darkMode:hover {
@@ -126,17 +131,17 @@
 
 /* FOR DARK AND LIGHT MODE */
 
-.navbar-light-mode {
+.light-mode {
   background-color: white;
 }
 
-.navbar-light-mode>hr {
+.light-mode>hr {
   background-color: black;
 }
 
 .dark-mode {
   background-color: black;
-  color: white;
+  color: rgb(241, 241, 241);
 }
 
 .dark-mode>hr {
@@ -147,8 +152,18 @@
   filter: invert(100%) sepia(79%) saturate(0%) hue-rotate(198deg) brightness(110%) contrast(100%);
 }
 
-.dark-mode>div#skills-style>span {
+/* for skill font color in skills section and projects section */
+.dark-mode>div#skills-style>span, .dark-mode>span.skills  {
   color: black;
+}
+
+/* for box shadown in dark mode */
+.dark-mode>div.project-card {
+  box-shadow: rgba(148, 147, 147, 0.8) 0px 5px 15px;
+}
+
+.dark-mode>div.project-card:hover {
+  box-shadow: rgb(183, 182, 182) 0px 7px 29px 0px;
 }
 
 /* END OF DARK AND LIGHT MODE */

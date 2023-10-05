@@ -1,12 +1,11 @@
 import green_beans from './assets/green_beans.png';
-import github_mark from './assets/github_mark.png';
 import classic_games from './assets/classic_games.png';
 
-function Projects() {
+function Projects(props) {
     return (
         <div className="separation">
             <h2 id="projects" className="padding-top">Projects 🗂️</h2>
-            <div className="d-flex gap-3 flex-column">
+            <div className={"d-flex gap-3 flex-column " + props.mode}>
                 <div className="row project-card">
                     <div className="col-4 d-flex">
                         <img style={{ width: "100%", height: "100%"}} src={green_beans} alt="deployed-page"/>
@@ -17,7 +16,7 @@ function Projects() {
                         <p>A web application that enables users to establish and manage environmental-focused communities, within which users can organize events aimed at improving various environmental aspects such as air quality or waste reduction.</p>
                         </div>
                         <div>
-                            <div className="d-flex flex-wrap" style={{gap: "5px"}}>
+                            <div className={"d-flex flex-wrap " + props.mode} style={{gap: "5px"}}>
                                 <span className="skills">React</span>
                                 <span className="skills">JavaScript</span>
                                 <span className="skills">FastAPI</span>
@@ -47,7 +46,7 @@ function Projects() {
                             </p>
                         </div>
                         <div>
-                            <div className="d-flex flex-wrap" style={{gap: "5px"}}>
+                            <div className={"d-flex flex-wrap " + props.mode} style={{gap: "5px"}}>
                                     <span className="skills">HTML</span>
                                     <span className="skills">CSS</span>
                                     <span className="skills">JavaScript</span>

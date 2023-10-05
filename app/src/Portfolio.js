@@ -10,7 +10,7 @@ import DarkLightMode from './DarkLightMode';
 
 function Portfolio() {
     const [darkMode, setDarkMode] = useState(false);
-    const [mode, setMode] = useState("navbar-light-mode")
+    const [mode, setMode] = useState("light-mode")
     const [gitHubMode, setGitHubMode] = useState("");
 
     function switchMode() {
@@ -22,7 +22,7 @@ function Portfolio() {
             setMode("dark-mode");
             setGitHubMode("github-logo-white");
         } else {
-            setMode("navbar-light-mode")
+            setMode("light-mode")
             setGitHubMode("");
         }
     },[darkMode])
@@ -44,8 +44,8 @@ function Portfolio() {
             </nav>
             <div className={"body-container " + mode} data-bs-spy="scroll" data-bs-target="#nav-list" data-bs-offset="5" tabIndex="0">
                 <About />
-                <Projects />
-                <MySkills />
+                <Projects mode={mode} />
+                <MySkills mode={mode} />
                 <Footer />
             </div>
         </div>
