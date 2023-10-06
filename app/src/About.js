@@ -1,48 +1,108 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function About() {
-    const [oh, setOh] = useState("oooooooooooooooooooooo");
+  const [oh, setOh] = useState("oooooooooooooooooooooo");
 
-    function deleteOh() {
-        let letterOh = "oooooooooooooooooooooo";
-        for (let i = letterOh.length; i > 1; i--) {
-            // eslint-disable-next-line no-loop-func
-            setTimeout(() => {
-                letterOh = letterOh.slice(0, -1);
-                setOh(letterOh);
-            }, 100 * i);
-        }
+  function deleteOh() {
+    let letterOh = "oooooooooooooooooooooo";
+    for (let i = letterOh.length; i > 1; i--) {
+      setTimeout(() => {
+        letterOh = letterOh.slice(0, -1);
+        setOh(letterOh);
+      }, 100 * i);
     }
+  }
 
-    function handleDeleteOh() {
-        let letterOh = oh;
-        for (let i = letterOh.length; i > 1; i--) {
-            // eslint-disable-next-line no-loop-func
-            setTimeout(() => {
-                letterOh = letterOh.slice(0, -1);
-                setOh(letterOh);
-            }, 100 * i);
-        }
+  function handleDeleteOh() {
+    let letterOh = oh;
+    for (let i = letterOh.length; i > 1; i--) {
+      setTimeout(() => {
+        letterOh = letterOh.slice(0, -1);
+        setOh(letterOh);
+      }, 100 * i);
     }
+  }
 
-    function addOh() {
-        if (oh.length < 20) {
-            setOh(oh + "o");
-        }
+  function addOh() {
+    if (oh.length < 20) {
+      setOh(oh + "o");
     }
+  }
 
-    useEffect(() => {
-        deleteOh();
-    },[]);
+  useEffect(() => {
+    deleteOh();
+  }, []);
 
-    return (
-        <div className="separation">
-                <h2 data-spy="affix" id="about" className="padding-top">Hi there, I'm <b onMouseEnter={addOh} id="my-name">L{ oh }ng Guan</b> <span className="pointer" onClick={handleDeleteOh}>👋</span></h2>
-                <p>Through the four years of using <a target="_blank" rel="noreferrer" className="link" href="https://www.autodesk.com/products/civil-3d/overview?term=1-YEAR&tab=subscription">computer-aided design</a> as a civil engineer, I was always amazed by how it automated many processes and made my job much more efficient. Fueled by amazement and curiosity, I wanted to learn how to create software to automate a process. So, I completed an <a target="_blank" rel="noreferrer" className="link" href="https://www.udemy.com/course/complete-python-bootcamp/">intro to Python course</a> on Udemy in 2021. I had a blast learning it and craved more, so I started <a target="_blank" rel="noreferrer" className="link" href="https://www.theodinproject.com/">The Odin Project</a>, an online fullstack web development course I worked on throughout 2022.</p>
-                <p>Fast forward to February of this year, what started as amazement and curiosity led me to take a leap and make a career switch to become a software engineer. Since then, I have been self-learning and recently finished <a target="_blank" rel="noreferrer" className="link" href="https://www.galvanize.com/explore-hack-reactor-coding-bootcamps/">Galvanize Hack Reactor</a> 19-week full-stack software engineering program. </p>
-                <p>Outside of coding, I love <span id="snowboard">🏂</span>, <span id="camping">🏕️</span>, and editing GoPro <span id="gopro">🎥</span> of the trips I have been on.</p>
-        </div>
-    )
+  return (
+    <div>
+      <h2 data-spy="affix" id="about" className="padding-top">
+        Hi there, I'm{" "}
+        <b onMouseEnter={addOh} id="my-name">
+          L{oh}ng Guan
+        </b>{" "}
+        <span className="pointer" onClick={handleDeleteOh}>
+          👋
+        </span>
+      </h2>
+      <div>
+        <p>
+          Through the four years of using{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+            href="https://www.autodesk.com/products/civil-3d/overview?term=1-YEAR&tab=subscription"
+          >
+            computer-aided design
+          </a>{" "}
+          as a civil engineer, I was always amazed by how it automated many
+          processes and made my job much more efficient. Fueled by amazement and
+          curiosity, I wanted to learn how to create software to automate a
+          process. So, I completed an{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+            href="https://www.udemy.com/course/complete-python-bootcamp/"
+          >
+            intro to Python course
+          </a>{" "}
+          on Udemy in 2021. I had a blast learning it and craved more, so I
+          started{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+            href="https://www.theodinproject.com/"
+          >
+            The Odin Project
+          </a>
+          , an online full-stack web development course I worked on throughout
+          2022.
+        </p>
+        <p>
+          Fast forward to February of this year, what started as amazement and
+          curiosity led me to take a leap and make a career switch to become a
+          software engineer. Since then, I have been self-learning and recently
+          finished{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+            href="https://www.galvanize.com/explore-hack-reactor-coding-bootcamps/"
+          >
+            Galvanize Hack Reactor
+          </a>{" "}
+          19-week full-stack software engineering program.{" "}
+        </p>
+        <p>
+          Outside of coding, I love <span id="snowboard">🏂</span>,{" "}
+          <span id="camping">🏕️</span>, and editing GoPro{" "}
+          <span id="gopro">🎥</span> of the trips I have been on.
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default About;

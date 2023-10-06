@@ -6,7 +6,6 @@
   border-radius: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-bottom: 10px;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
 }
 
@@ -14,7 +13,9 @@
   box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
 
-#github-logo:hover, #linkedin-logo:hover, #darkMode:hover {
+#github-logo:hover,
+#linkedin-logo:hover,
+#darkMode:hover {
   scale: 1.25;
 }
 
@@ -36,16 +37,16 @@
   background-color: rgb(13, 202, 240);
 }
 
-#nav-list>a:hover {
+#nav-list > a:hover {
   color: rgb(13, 202, 240);
 }
 
-.separation {
-  margin-bottom: 100px;
+main.separation > div {
+  padding-bottom: 100px;
 }
 
 .padding-top {
-  padding-top: 48px;
+  padding-top: 60px;
 }
 
 .padding-bot {
@@ -56,7 +57,7 @@
   gap: 5px;
 }
 
-#skills-style>span {
+#skills-style > span {
   font-size: 15px;
 }
 
@@ -74,7 +75,7 @@
   font-weight: bold;
 }
 
-#nav-list>a {
+#nav-list > a {
   text-decoration: none;
   color: rgb(13, 110, 253);
 }
@@ -99,12 +100,14 @@
 }
 
 #my-name {
-  color:rgb(13, 110, 253);
+  color: rgb(13, 110, 253);
   animation: 3s change-color 1;
 }
 
 #my-name:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👋</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👋</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
 @keyframes change-color {
@@ -118,15 +121,21 @@
 }
 
 #snowboard:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❄️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❄️</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
 #camping:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥾</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥾</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
 #gopro:hover {
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✈️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✈️</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
 /* FOR DARK AND LIGHT MODE */
@@ -135,7 +144,7 @@
   background-color: white;
 }
 
-.light-mode>hr {
+.light-mode > hr {
   background-color: black;
 }
 
@@ -144,26 +153,36 @@
   color: rgb(241, 241, 241);
 }
 
-.dark-mode>hr {
+.dark-mode > hr {
   background-color: white;
 }
 
 .github-logo-white {
-  filter: invert(100%) sepia(79%) saturate(0%) hue-rotate(198deg) brightness(110%) contrast(100%);
+  filter: invert(100%) sepia(79%) saturate(0%) hue-rotate(198deg)
+    brightness(110%) contrast(100%);
 }
 
 /* for skill font color in skills section and projects section */
-.dark-mode>div#skills-style>span, .dark-mode>span.skills  {
+.dark-mode > div#skills-style > span,
+.dark-mode > span.skills {
   color: black;
 }
 
 /* for box shadown in dark mode */
-.dark-mode>div.project-card {
+.dark-mode > div.project-card {
   box-shadow: rgba(148, 147, 147, 0.8) 0px 5px 15px;
 }
 
-.dark-mode>div.project-card:hover {
+.dark-mode > div.project-card:hover {
   box-shadow: rgb(183, 182, 182) 0px 7px 29px 0px;
 }
 
 /* END OF DARK AND LIGHT MODE */
+
+.hidden {
+  display: none;
+}
+
+.form-hover:hover {
+  border-color: rgb(13, 202, 240);
+}
