@@ -15,9 +15,17 @@ function Portfolio() {
 
     function switchMode() {
         setDarkMode(!darkMode);
+        localStorage.setItem('darkMode', !darkMode)
+    }
+
+    function checkLocalDarkMode() {
+        if (localStorage.getItem('darkMode') === 'true') {
+            setDarkMode(true);
+        }
     }
 
     useEffect(() => {
+        checkLocalDarkMode();
         if (darkMode) {
             setMode("dark-mode");
             setGitHubMode("github-logo-white");
