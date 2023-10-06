@@ -55,7 +55,7 @@ function Portfolio() {
         className={"body-container separation " + mode}
         data-bs-spy="scroll"
         data-bs-target="#nav-list"
-        data-bs-offset="10"
+        data-bs-offset="0"
         tabIndex="0"
       >
         <About />

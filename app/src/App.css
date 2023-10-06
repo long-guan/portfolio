@@ -70,10 +70,11 @@ main.separation > div {
   border-radius: 4px;
 }
 
-.active {
+/* scroll spying isn't working as intended, will fix later */
+/* .active {
   font-size: 20px;
   font-weight: bold;
-}
+} */
 
 #nav-list > a {
   text-decoration: none;
