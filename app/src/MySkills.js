@@ -1,6 +1,6 @@
 function MySkills(props) {
   return (
-    <div className={props.mode}>
+    <div className={"fade-in " + props.mode}>
       <h2 id="skills" className="padding-top">
         Skills 🛠️
       </h2>

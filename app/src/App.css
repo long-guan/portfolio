@@ -102,23 +102,12 @@ main.separation > div {
 
 #my-name {
   color: rgb(13, 110, 253);
-  animation: 3s change-color 1;
 }
 
 #my-name:hover {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👋</text></svg>")
       16 0,
     auto; /*!emojicursor.app*/
-}
-
-@keyframes change-color {
-  from {
-    color: white;
-  }
-
-  to {
-    color: rgb(13, 110, 253);
-  }
 }
 
 #snowboard:hover {
@@ -186,4 +175,18 @@ main.separation > div {
 
 .form-hover:hover {
   border-color: rgb(13, 202, 240);
+}
+
+.fade-in {
+  animation: 2.5s materialize 1 ease-in;
+}
+
+@keyframes materialize {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

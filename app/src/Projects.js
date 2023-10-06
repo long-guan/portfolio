@@ -3,7 +3,7 @@ import classic_games from "./assets/classic_games.png";
 
 function Projects(props) {
   return (
-    <div>
+    <div className="fade-in">
       <h2 id="projects" className="padding-top">
         Projects 🗂️
       </h2>

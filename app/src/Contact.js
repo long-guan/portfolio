@@ -30,7 +30,7 @@ function Contact(props) {
   };
 
   return (
-    <div className={props.mode}>
+    <div className={"fade-in " + props.mode}>
       <h2 className="padding-top" id="contact">
         Contact 💬
       </h2>

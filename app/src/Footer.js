@@ -4,7 +4,9 @@ function Footer(props) {
       className={props.mode}
       style={{ textAlign: "center", paddingBottom: "10px", paddingTop: "10px" }}
     >
-      Dockerized and built with React and Bootstrap. Deployed on GitHub. ✌️
+      <div className="fade-in">
+        Dockerized and built with React and Bootstrap. Deployed on GitHub. ✌️
+      </div>
     </footer>
   );
 }

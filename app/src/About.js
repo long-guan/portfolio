@@ -44,7 +44,7 @@ function About() {
           👋
         </span>
       </h2>
-      <div>
+      <div className="fade-in">
         <p>
           Through the four years of using{" "}
           <a

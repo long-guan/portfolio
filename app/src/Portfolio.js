@@ -38,7 +38,7 @@ function Portfolio() {
 
   return (
     <div>
-      <nav id="navbar" className={mode}>
+      <nav id="navbar" className={"fade-in " + mode}>
         <div className="d-flex justify-content-between navbar-spacing align-items-center">
           <NameTitle />
           <div className="d-flex justify-content-between align-items-center gap-3">
