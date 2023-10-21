@@ -200,3 +200,11 @@ main.separation > div {
   margin-bottom: 30px;
   text-align: center;
 }
+
+.carousel-indicators {
+  top: 0;
+}
+
+.carousel-cont {
+  margin-top: 20px;
+}

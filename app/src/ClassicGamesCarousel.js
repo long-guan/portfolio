@@ -15,7 +15,7 @@ function ClassicGamesCarousel() {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter">
+        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
           <video
             src={unbeatable_tic_tac_toe}
             controls="controls"
@@ -30,7 +30,7 @@ function ClassicGamesCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter">
+        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
           <video
             src={variance_tic_tac_toe}
             controls="controls"
@@ -47,7 +47,7 @@ function ClassicGamesCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter">
+        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
           <video
             src={demo_lazy_knight}
             controls="controls"
@@ -63,7 +63,7 @@ function ClassicGamesCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter">
+        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
           <video
             src={demo_battleship}
             controls="controls"
@@ -84,38 +84,3 @@ function ClassicGamesCarousel() {
 }
 
 export default ClassicGamesCarousel;
-
-{
-  /* <li>
-  Implemented Minimax theory with recursion in Tic Tac Toe to
-  create an unbeatable computer opponent
-</li>
-<li>
-  Created variance in the computer's next move by collecting all
-  the moves with the same minimax score (where the same minimax
-  score indicates the same outcome) and returning the next move
-  randomly
-</li>
-<li>
-  Used breadth-first search algorithm in Lazy Knight to calculate
-  the least number of moves required for the knight to travel from
-  one square to another
-</li>
-<li>
-  Used z-index and position to stack two divs on top of each other
-  in Battleship, allowing one div to display the ships on the
-  board and the other div to display the coordinates that were
-  attacked
-</li>
-<li>
-  Combined setTimeout method and transform CSS property to
-  dynamically display the movement of the Knight in Lazy Knight,
-  enhancing the user experience
-</li>
-<li>
-  In Battleship, utilized a set of boolean variables to ensure
-  that if the computer lands a hit, it will continue attacking the
-  adjacent coordinates until the ship is sunken to imitate human
-  player logic
-</li> */
-}
