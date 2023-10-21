@@ -203,6 +203,7 @@ main.separation > div {
 
 .carousel-indicators {
   top: 0;
+  height: 5px;
 }
 
 .carousel-cont {
