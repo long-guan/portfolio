@@ -51,7 +51,8 @@ function Contact(props) {
             or leave me a message below. I will respond back within 48 hours!
           </p>
           <p>
-            I also appreciate any feedback that you have on my portfolio page.
+            I also appreciate any feedback that you have on my portfolio page or
+            projects.
           </p>
           <form ref={form} onSubmit={sendEmail} className="d-flex flex-column">
             <div className="row">

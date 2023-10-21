@@ -1,19 +1,23 @@
-import React from 'react';
-import Modal from 'react-modal';
+import React from "react";
+import Modal from "react-modal";
+import ClassicGamesCarousel from "./ClassicGamesCarousel";
 
 const customStyles = {
   content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    width: "85%",
+    height: "85%",
+    backgroundColor: "black",
+    borderRadius: "10px",
   },
 };
 
-function PictureModal(props) {
-//   let subtitle;
+function ClassicGamesModal() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openModal() {
@@ -30,8 +34,10 @@ function PictureModal(props) {
   }
 
   return (
-    <div>
-      <img onClick={openModal} style={{ width: "100%", height: "100%"}} src={props.image} alt="page"/>
+    <div className="link pointer">
+      <a style={{ textDecoration: "underline" }} onClick={openModal}>
+        View Features
+      </a>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -40,13 +46,10 @@ function PictureModal(props) {
         ariaHideApp={false}
         contentLabel="Picture Modal"
       >
-        <div style={{ height: "50%"}}>
-            <img style={{ width: "100%", height: "100%"}} src={props.image} alt="page"/>
-        </div>
-
+        <ClassicGamesCarousel />
       </Modal>
     </div>
   );
 }
 
-export default PictureModal;
+export default ClassicGamesModal;

@@ -190,3 +190,13 @@ main.separation > div {
     opacity: 1;
   }
 }
+
+.carousel {
+  height: 100%;
+}
+
+.carousel-label {
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
