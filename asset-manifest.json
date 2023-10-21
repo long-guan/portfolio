@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.00deb7c7.css",
-    "main.js": "/portfolio/static/js/main.402117a3.js",
+    "main.css": "/portfolio/static/css/main.fa75009f.css",
+    "main.js": "/portfolio/static/js/main.6a7727d3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/green_beans.png": "/portfolio/static/media/green_beans.5938b779fde405d09f60.png",
+    "static/media/unbeatable_tic_tac_toe_compressed.mp4": "/portfolio/static/media/unbeatable_tic_tac_toe_compressed.69ce1ce32d799f82690b.mp4",
+    "static/media/variance_tic_tac_toe_compressed.mp4": "/portfolio/static/media/variance_tic_tac_toe_compressed.3117bed1705cbfc04f20.mp4",
     "static/media/classic_games.png": "/portfolio/static/media/classic_games.1e26414a1cd229bcff37.png",
-    "static/media/LongGuan_Resume.pdf": "/portfolio/static/media/LongGuan_Resume.79f2bbf9ea39e1a0a383.pdf",
+    "static/media/LongGuan_Resume.pdf": "/portfolio/static/media/LongGuan_Resume.be068972c8857790bcfd.pdf",
     "index.html": "/portfolio/index.html",
-    "main.00deb7c7.css.map": "/portfolio/static/css/main.00deb7c7.css.map",
-    "main.402117a3.js.map": "/portfolio/static/js/main.402117a3.js.map",
+    "main.fa75009f.css.map": "/portfolio/static/css/main.fa75009f.css.map",
+    "main.6a7727d3.js.map": "/portfolio/static/js/main.6a7727d3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00deb7c7.css",
-    "static/js/main.402117a3.js"
+    "static/css/main.fa75009f.css",
+    "static/js/main.6a7727d3.js"
   ]
 }
