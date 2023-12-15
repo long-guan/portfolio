@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0267fddf.css",
-    "main.js": "/portfolio/static/js/main.3325fe15.js",
+    "main.css": "/portfolio/static/css/main.db65a8ef.css",
+    "main.js": "/portfolio/static/js/main.f7914f2f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/stevens_pass_imap.png": "/portfolio/static/media/stevens_pass_imap.137f91f85d7d9213fcdf.png",
+    "static/media/posting_stevenspass_compressed.mp4": "/portfolio/static/media/posting_stevenspass_compressed.26fecc5c816cec21bf92.mp4",
+    "static/media/interactive_stevenspass_compressed.mp4": "/portfolio/static/media/interactive_stevenspass_compressed.99681a27108dc3ee3ea6.mp4",
     "static/media/green_beans.png": "/portfolio/static/media/green_beans.5938b779fde405d09f60.png",
     "static/media/demo_battleship_compressed.mp4": "/portfolio/static/media/demo_battleship_compressed.bc3a9abce4ed90535cb2.mp4",
+    "static/media/authentication_stevenspass_compressed.mp4": "/portfolio/static/media/authentication_stevenspass_compressed.f920f50dc7c257dee745.mp4",
     "static/media/unbeatable_tic_tac_toe_compressed.mp4": "/portfolio/static/media/unbeatable_tic_tac_toe_compressed.69ce1ce32d799f82690b.mp4",
     "static/media/variance_tic_tac_toe_compressed.mp4": "/portfolio/static/media/variance_tic_tac_toe_compressed.3117bed1705cbfc04f20.mp4",
     "static/media/demo_lazy_knight_compressed.mp4": "/portfolio/static/media/demo_lazy_knight_compressed.16c9ff5885c061837562.mp4",
     "static/media/classic_games.png": "/portfolio/static/media/classic_games.cfa9c895364c310a61f4.png",
     "static/media/LongGuan_Resume.pdf": "/portfolio/static/media/LongGuan_Resume.d9000a04f06f73c20aad.pdf",
     "index.html": "/portfolio/index.html",
-    "main.0267fddf.css.map": "/portfolio/static/css/main.0267fddf.css.map",
-    "main.3325fe15.js.map": "/portfolio/static/js/main.3325fe15.js.map",
+    "main.db65a8ef.css.map": "/portfolio/static/css/main.db65a8ef.css.map",
+    "main.f7914f2f.js.map": "/portfolio/static/js/main.f7914f2f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0267fddf.css",
-    "static/js/main.3325fe15.js"
+    "static/css/main.db65a8ef.css",
+    "static/js/main.f7914f2f.js"
   ]
 }
