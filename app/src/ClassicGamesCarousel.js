@@ -15,29 +15,29 @@ function ClassicGamesCarousel() {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
+        <div className="carousel-cont">
           <video
             src={unbeatable_tic_tac_toe}
             controls="controls"
             autoPlay={true}
             width="auto"
-            height="500px"
+            height="80%"
           ></video>
-          <p className="carousel-label">
+          <p style={{ width: "80%" }} className="carousel-label">
             Implemented Minimax theory with recursion in Tic Tac Toe to create
             an unbeatable computer opponent
           </p>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
+        <div className="carousel-cont">
           <video
             src={variance_tic_tac_toe}
             controls="controls"
             width="auto"
-            height="500px"
+            height="80%"
           ></video>
-          <p className="carousel-label">
+          <p style={{ width: "80%" }} className="carousel-label">
             Created variance in the computer's next move by collecting all the
             moves with the same minimax score and returning the next move
             randomly. See example above where the computer's move randomizes
@@ -47,14 +47,14 @@ function ClassicGamesCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
+        <div className="carousel-cont">
           <video
             src={demo_lazy_knight}
             controls="controls"
             width="auto"
-            height="500px"
+            height="80%"
           ></video>
-          <p className="carousel-label">
+          <p style={{ width: "80%" }} className="carousel-label">
             Used breadth-first search algorithm to calculate the least number of
             moves required for the knight to travel from one spot to another.
             Combined setTimeout method and transform CSS property to dynamically
@@ -63,14 +63,14 @@ function ClassicGamesCarousel() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="d-flex flex-column align-items-center justify-contenter carousel-cont">
+        <div className="carousel-cont">
           <video
             src={demo_battleship}
             controls="controls"
             width="auto"
-            height="500px"
+            height="80%"
           ></video>
-          <p className="carousel-label">
+          <p style={{ width: "80%" }} className="carousel-label">
             Utilized a set of boolean variables to ensure that if the computer
             lands a hit, it will continue attacking the adjacent coordinates
             until the ship is sunken to imitate human player logic. See example

@@ -191,7 +191,9 @@ main.separation > div {
   }
 }
 
-.carousel {
+.carousel,
+.carousel-inner,
+.carousel-item {
   height: 100%;
 }
 
@@ -208,4 +210,9 @@ main.separation > div {
 
 .carousel-cont {
   margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

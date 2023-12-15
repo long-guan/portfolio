@@ -1,6 +1,7 @@
 import green_beans from "./assets/green_beans.png";
 import classic_games from "./assets/classic_games.png";
 import ClassicGamesModal from "./ClassicGamesModal";
+import StevensPassModal from "./StevensPassModal";
 import stevens_pass_imap from "./assets/stevens_pass_imap.png";
 
 function Projects(props) {
@@ -62,6 +63,7 @@ function Projects(props) {
                   >
                     <div>View Code</div>
                   </a>
+                  <StevensPassModal />
                 </div>
               </div>
             </div>
