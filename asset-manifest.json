@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.db65a8ef.css",
-    "main.js": "/portfolio/static/js/main.f0d8df1d.js",
+    "main.js": "/portfolio/static/js/main.f80af5cb.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/posting_stevenspass_compressed.mp4": "/portfolio/static/media/posting_stevenspass_compressed.26fecc5c816cec21bf92.mp4",
     "static/media/interactive_stevenspass_compressed.mp4": "/portfolio/static/media/interactive_stevenspass_compressed.99681a27108dc3ee3ea6.mp4",
@@ -13,14 +13,14 @@
     "static/media/variance_tic_tac_toe_compressed.mp4": "/portfolio/static/media/variance_tic_tac_toe_compressed.3117bed1705cbfc04f20.mp4",
     "static/media/demo_lazy_knight_compressed.mp4": "/portfolio/static/media/demo_lazy_knight_compressed.16c9ff5885c061837562.mp4",
     "static/media/classic_games.png": "/portfolio/static/media/classic_games.cfa9c895364c310a61f4.png",
-    "static/media/LongGuan_Resume.pdf": "/portfolio/static/media/LongGuan_Resume.7bb5983176cee25ecc17.pdf",
+    "static/media/LongGuan_Resume.pdf": "/portfolio/static/media/LongGuan_Resume.2a9331f7e209ca82e519.pdf",
     "index.html": "/portfolio/index.html",
     "main.db65a8ef.css.map": "/portfolio/static/css/main.db65a8ef.css.map",
-    "main.f0d8df1d.js.map": "/portfolio/static/js/main.f0d8df1d.js.map",
+    "main.f80af5cb.js.map": "/portfolio/static/js/main.f80af5cb.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db65a8ef.css",
-    "static/js/main.f0d8df1d.js"
+    "static/js/main.f80af5cb.js"
   ]
 }
