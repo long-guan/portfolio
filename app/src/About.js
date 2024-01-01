@@ -46,7 +46,7 @@ function About() {
       </h2>
       <div className="fade-in">
         <p>
-          Through the four years of using{" "}
+          Through my four years of using{" "}
           <a
             target="_blank"
             rel="noreferrer"
@@ -55,20 +55,21 @@ function About() {
           >
             computer-aided design
           </a>{" "}
-          as a civil engineer, I was always amazed by how it automated many
-          processes and made my job much more efficient. Fueled by amazement and
-          curiosity, I wanted to learn how to create software to automate a
-          process. So, I completed an{" "}
+          in my role as a civil engineer, I consistently marveled at its ability
+          to automate numerous processes and calculations. Fueled by this
+          amazement, I embarked on a journey to learn about the basics of
+          software. In 2021, I began working on a beginner online{" "}
           <a
             target="_blank"
             rel="noreferrer"
             className="link"
             href="https://www.udemy.com/course/complete-python-bootcamp/"
           >
-            intro to Python course
-          </a>{" "}
-          on Udemy in 2021. I had a blast learning it and craved more, so I
-          started{" "}
+            Python course
+          </a>
+          , dedicating my free time after work. After a few months, I completed
+          the course and found that I love solving problems through coding,
+          leading me to crave more. Therefore, I started{" "}
           <a
             target="_blank"
             rel="noreferrer"
@@ -77,23 +78,35 @@ function About() {
           >
             The Odin Project
           </a>
-          , an online full-stack web development course I worked on throughout
-          2022.
+          , an online Web Development course, which I worked on after work
+          throughout 2022.{" "}
         </p>
         <p>
-          Fast forward to February of this year, what started as amazement and
-          curiosity led me to take a leap and make a career switch to become a
-          software engineer. Since then, I have been self-learning and recently
-          finished{" "}
+          Fast forward to February of this year and after almost two years of
+          self-learning, I made a bold decision to switch careers and pursue my
+          aspiration to become a software engineer. Since then, I successfully
+          completed a{" "}
           <a
             target="_blank"
             rel="noreferrer"
             className="link"
             href="https://www.galvanize.com/explore-hack-reactor-coding-bootcamps/"
           >
-            Galvanize Hack Reactor
+            19-week full-stack software engineering program
           </a>{" "}
-          19-week full-stack software engineering program.{" "}
+          and remained devoted to learning new technologies and building
+          projects. I am excited about the prospect of applying my skills in a
+          professional setting and welcome any job opportunities that align with
+          my passion and expertise.
+        </p>
+        <p>
+          Since embarking on this journey, I have come to realize that software
+          engineering is not only about finding a solution that works, but also
+          about finding a solution that is efficient, user-centric, and
+          cost-effective. I am excited about the opportunity to apply my
+          problem-solving and collaborative skills developed in civil
+          engineering to develop innovative, technically robust, and
+          user-friendly software.
         </p>
         <p>
           Outside of coding, I love <span id="snowboard">🏂</span>,{" "}
