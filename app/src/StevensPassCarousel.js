@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import authentication_stevenspass from "./assets/authentication_stevenspass_compressed.mp4";
 import interactive_stevenspass from "./assets/interactive_stevenspass_compressed.mp4";
 import posting_stevenspass from "./assets/posting_stevenspass_compressed.mp4";
+import responsive_stevenspass from "./assets/responsive_stevenspass_compressed.mp4";
 
 function StevensPassCarousel() {
   const [index, setIndex] = useState(0);
@@ -57,6 +58,21 @@ function StevensPassCarousel() {
           <p style={{ width: "80%" }} className="carousel-label">
             Users who are signed in are able to add videos and comments to a ski
             trail.
+          </p>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="carousel-cont">
+          <video
+            src={responsive_stevenspass}
+            controls="controls"
+            width="auto"
+            height="80%"
+          ></video>
+          <p style={{ width: "80%" }} className="carousel-label">
+            Leveraged media queries to provide responsiveness for the entire
+            app, enabling mobile users with screen sizes as small as 320px to
+            use the app and accommodating approximately 97% of all screen sizes.
           </p>
         </div>
       </Carousel.Item>
