@@ -31,12 +31,12 @@ function Contact(props) {
 
   return (
     <div className={"fade-in " + props.mode}>
-      <h2 className="padding-top" id="contact">
+      <h2 className="padding-top contact-header" id="contact">
         Contact 💬
       </h2>
       <div className="project-card p-4">
         <div className={hidden}>
-          <p>
+          <p className="contact-body">
             I am currently looking for opportunities to be part of your team as
             a full-stack software engineer. Please feel free to contact me
             through{" "}
@@ -50,13 +50,13 @@ function Contact(props) {
             </a>{" "}
             or leave me a message below. I will respond back within 48 hours!
           </p>
-          <p>
+          <p className="contact-body">
             I also appreciate any feedback that you have on my portfolio page or
             projects.
           </p>
           <form ref={form} onSubmit={sendEmail} className="d-flex flex-column">
             <div className="row">
-              <div className="col">
+              <div className="col contact-body">
                 <label>First Name</label>
                 <input
                   type="text"
@@ -65,7 +65,7 @@ function Contact(props) {
                   required
                 />
               </div>
-              <div className="col">
+              <div className="col contact-body">
                 <label>Last Name</label>
                 <input
                   type="text"
@@ -75,18 +75,18 @@ function Contact(props) {
                 />
               </div>
             </div>
-            <label>Email</label>
+            <label className="contact-body">Email</label>
             <input
               type="email"
               className="form-control form-hover"
               name="email"
               required
             />
-            <label>Message</label>
+            <label className="contact-body">Message</label>
             <textarea
               style={{ marginBottom: "16px" }}
               name="message"
-              className="form-control form-hover"
+              className="form-control form-hover contact-body"
               required
             />
             <div className="d-flex">

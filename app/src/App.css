@@ -92,6 +92,9 @@ main.separation > div {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .body-container {
@@ -215,4 +218,137 @@ main.separation > div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.about-header,
+.projects-header,
+.skills-header,
+.contact-header {
+  font-size: calc(31px + 0.390625vw);
+}
+
+.skills-subheader {
+  font-size: calc(27px + 0.390625vw);
+}
+
+.projects-subheader {
+  font-size: calc(23px + 0.390625vw);
+}
+
+.about-body,
+#nav-list > a > div,
+#nav-list > a,
+.name,
+.projects-description,
+.projects-btn > a > div,
+.skills,
+.contact-body,
+.link,
+.footer {
+  font-size: calc(15px + 0.390625vw);
+}
+
+#linkedin-logo,
+#github-logo,
+#darkMode {
+  width: 20px;
+  height: 20px;
+}
+
+#nav-list,
+.navbar-social {
+  gap: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+  .body-container {
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+
+  #linkedin-logo,
+  #github-logo,
+  #darkMode {
+    width: 18px;
+    height: 18px;
+  }
+
+  #nav-list,
+  .navbar-social {
+    gap: 10px;
+  }
+}
+
+/* padding decrease by 30px */
+@media screen and (max-width: 875px) {
+  .title {
+    display: none;
+  }
+
+  .body-container {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  #linkedin-logo,
+  #github-logo,
+  #darkMode {
+    width: 16px;
+    height: 16px;
+  }
+
+  #nav-list,
+  .navbar-social {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .body-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-container,
+  .navbar-spacing {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #nav-list,
+  .navbar-social {
+    gap: 4px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .body-container,
+  .navbar-spacing {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .body-container,
+  .navbar-spacing {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .navbar-spacing {
+    justify-content: center;
+  }
+
+  #nav-list,
+  .navbar-social {
+    gap: null;
+  }
+
+  .name {
+    display: none;
+  }
 }

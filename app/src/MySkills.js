@@ -1,7 +1,7 @@
 function MySkills(props) {
   return (
     <div className={"fade-in " + props.mode}>
-      <h2 id="skills" className="padding-top">
+      <h2 id="skills" className="padding-top skills-header">
         Skills 🛠️
       </h2>
       <div
@@ -9,7 +9,7 @@ function MySkills(props) {
         className={"d-flex flex-column " + props.mode}
       >
         <div className="d-flex flex-column flex-wrap justify-content-center project-card p-2 align-items-center">
-          <h3>Languages 📕</h3>
+          <h3 className="skills-subheader">Languages 📕</h3>
           <div className={"d-flex " + props.mode} style={{ gap: "10px" }}>
             <span className="skills">HTML</span>
             <span className="skills">CSS</span>

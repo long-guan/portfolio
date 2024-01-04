@@ -39,11 +39,11 @@ function Portfolio() {
   return (
     <div>
       <nav id="navbar" className={"fade-in " + mode}>
-        <div className="d-flex justify-content-between navbar-spacing align-items-center">
+        <div className="navbar-spacing">
           <NameTitle />
-          <div className="d-flex justify-content-between align-items-center gap-3">
+          <div className="d-flex justify-content-between align-items-center navbar-social">
             <Navbar />
-            <div className="d-flex align-items-center" style={{ gap: "8px" }}>
+            <div className="d-flex align-items-center navbar-social">
               <DarkLightMode switchMode={switchMode} darkMode={darkMode} />
               <SocialMedia gitHubMode={gitHubMode} />
             </div>

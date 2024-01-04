@@ -1,6 +1,9 @@
 import LongGuan_Resume from "./assets/LongGuan_Resume.pdf";
+// import { useEffect, useState } from "react";
 
 function Navbar() {
+  // const [screenWidth, setScreenWidth] = useState(null);
+
   const onPress = (e) => {
     e.preventDefault();
     const target = window.document.getElementById(
@@ -11,8 +14,43 @@ function Navbar() {
     }
   };
 
+  // useEffect(() => {
+  //   function getScreenWidth() {
+  //     setScreenWidth(document.documentElement.clientWidth);
+  //   }
+
+  //   window.addEventListener("resize", getScreenWidth);
+  //   return () => window.removeEventListener("resize", getScreenWidth);
+  // }, []);
+
   return (
-    <div className="d-flex align-items-center gap-3" id="nav-list">
+    // <div>
+    //   {screenWidth <= 510 ? (
+    //     <div className="dropdown">
+    //       <button
+    //         className="btn btn-secondary dropdown-toggle"
+    //         type="button"
+    //         id="dropdownMenuButton"
+    //         data-toggle="dropdown"
+    //         aria-haspopup="true"
+    //         aria-expanded="false"
+    //       >
+    //         Dropdown button
+    //       </button>
+    //       <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    //         <a className="dropdown-item" href="#">
+    //           Action
+    //         </a>
+    //         <a className="dropdown-item" href="#">
+    //           Another action
+    //         </a>
+    //         <a className="dropdown-item" href="#">
+    //           Something else here
+    //         </a>
+    //       </div>
+    //     </div>
+    //   ) : (
+    <div className="d-flex align-items-center" id="nav-list">
       <a onClick={(e) => onPress(e)} href="#about">
         <div data-to-scrollspy-id="about">About Me</div>
       </a>
@@ -34,6 +72,8 @@ function Navbar() {
         Resume
       </a>
     </div>
+    //   )}
+    // </div>
   );
 }
 

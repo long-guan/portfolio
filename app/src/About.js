@@ -35,7 +35,7 @@ function About() {
 
   return (
     <div>
-      <h2 data-spy="affix" id="about" className="padding-top">
+      <h2 data-spy="affix" id="about" className="padding-top about-header">
         Hi there, I'm{" "}
         <b onMouseEnter={addOh} id="my-name">
           L{oh}ng Guan
@@ -45,7 +45,7 @@ function About() {
         </span>
       </h2>
       <div className="fade-in">
-        <p>
+        <p className="about-body">
           Through my four years of using{" "}
           <a
             target="_blank"
@@ -81,7 +81,7 @@ function About() {
           , an online Web Development course, which I worked on after work
           throughout 2022.{" "}
         </p>
-        <p>
+        <p className="about-body">
           Fast forward to February of this year and after almost two years of
           self-learning, I made a bold decision to switch careers and pursue my
           aspiration to become a software engineer. Since then, I successfully
@@ -99,7 +99,7 @@ function About() {
           professional setting and welcome any job opportunities that align with
           my passion and expertise.
         </p>
-        <p>
+        <p className="about-body">
           Since embarking on this journey, I have come to realize that software
           engineering is not only about finding a solution that works, but also
           about finding a solution that is efficient, user-centric, and
@@ -108,7 +108,7 @@ function About() {
           engineering to develop innovative, technically robust, and
           user-friendly software.
         </p>
-        <p>
+        <p className="about-body">
           Outside of coding, I love <span id="snowboard">🏂</span>,{" "}
           <span id="camping">🏕️</span>, and editing GoPro{" "}
           <span id="gopro">🎥</span> of the trips I have been on.

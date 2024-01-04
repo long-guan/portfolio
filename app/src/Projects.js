@@ -7,7 +7,7 @@ import stevens_pass_imap from "./assets/stevens_pass_imap.png";
 function Projects(props) {
   return (
     <div className="fade-in">
-      <h2 id="projects" className="padding-top">
+      <h2 id="projects" className="padding-top projects-header">
         Projects 🗂️
       </h2>
       <div className={"d-flex gap-3 flex-column " + props.mode}>
@@ -21,8 +21,8 @@ function Projects(props) {
           </div>
           <div className="col-8 d-flex flex-column justify-content-between">
             <div className="d-flex flex-column justify-content-between">
-              <h4>Stevens Pass iMap</h4>
-              <p>
+              <h4 className="projects-subheader">Stevens Pass iMap</h4>
+              <p className="projects-description">
                 Transformed a non-interactive PDF map of Stevens Pass Ski Resort
                 into an interactive CRUD app built with React and Tailwind
                 frontend with Django and PostgreSQL backend. Backend is deployed
@@ -46,7 +46,7 @@ function Projects(props) {
                 <span className="skills">JavaScript</span>
               </div>
               <div>
-                <div className="d-flex gap-3 mt-3">
+                <div className="d-flex gap-3 mt-3 projects-btn">
                   <a
                     className="link"
                     target="_blank"
@@ -79,8 +79,8 @@ function Projects(props) {
           </div>
           <div className="col-8 d-flex flex-column justify-content-between">
             <div className="d-flex flex-column justify-content-between">
-              <h4>Long Loved Classic Games</h4>
-              <p>
+              <h4 className="projects-subheader">Long Loved Classic Games</h4>
+              <p className="projects-description">
                 A web application where you can play Battleship against a
                 computer with human-like logic, engage in a game of Tic Tac Toe
                 against an unbeatable computer, and experience Lazy Knight, all
@@ -97,7 +97,7 @@ function Projects(props) {
                 <span className="skills">JavaScript</span>
               </div>
               <div>
-                <div className="d-flex gap-3 mt-3">
+                <div className="d-flex gap-3 mt-3 projects-btn">
                   <a
                     className="link"
                     target="_blank"
@@ -130,14 +130,14 @@ function Projects(props) {
           </div>
           <div className="col-8 d-flex flex-column justify-content-between">
             <div className="d-flex flex-column justify-content-between">
-              <h4>Green Beings</h4>
-              <p>
+              <h4 className="projects-subheader">Green Beings</h4>
+              <p className="projects-description">
                 A web application that enables users to establish and manage
                 environmental-focused communities, within which users can
                 organize events aimed at improving various environmental aspects
                 such as air quality or waste reduction.
               </p>
-              <p>
+              <p className="projects-description">
                 Note: Backend FastAPI server is no longer hosted and no longer
                 operational for the Live App.
               </p>
@@ -154,7 +154,7 @@ function Projects(props) {
                 <span className="skills">Docker</span>
                 <span className="skills">PostgreSQL</span>
               </div>
-              <div className="d-flex gap-3 mt-3">
+              <div className="d-flex gap-3 mt-3 projects-btn">
                 <a
                   className="link"
                   target="_blank"
