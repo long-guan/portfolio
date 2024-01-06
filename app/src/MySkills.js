@@ -9,8 +9,11 @@ function MySkills(props) {
         className={"d-flex flex-column " + props.mode}
       >
         <div className="d-flex flex-column flex-wrap justify-content-center project-card p-2 align-items-center">
-          <h3 className="skills-subheader">Languages 📕</h3>
-          <div className={"d-flex " + props.mode} style={{ gap: "10px" }}>
+          <h3 className="skills-subheader text-center">Languages 📕</h3>
+          <div
+            className={"d-flex flex-wrap justify-content-center " + props.mode}
+            style={{ gap: "10px" }}
+          >
             <span className="skills">HTML</span>
             <span className="skills">CSS</span>
             <span className="skills">JavaScript</span>
@@ -18,16 +21,22 @@ function MySkills(props) {
           </div>
         </div>
         <div className="d-flex flex-column flex-wrap justify-content-center project-card p-2 align-items-center">
-          <h3>Frontend 🖥️</h3>
-          <div className={"d-flex " + props.mode} style={{ gap: "10px" }}>
+          <h3 className="skills-subheader text-center">Frontend 🖥️</h3>
+          <div
+            className={"d-flex flex-wrap justify-content-center " + props.mode}
+            style={{ gap: "10px" }}
+          >
             <span className="skills">React</span>
             <span className="skills">Bootstrap</span>
-            <span className="skills">Tailwind</span>
+            <span className="skills">Tailwind CSS</span>
           </div>
         </div>
         <div className="d-flex flex-column flex-wrap justify-content-center project-card p-2 align-items-center">
-          <h3>Backend ⚙️</h3>
-          <div className={"d-flex " + props.mode} style={{ gap: "10px" }}>
+          <h3 className="skills-subheader text-center">Backend ⚙️</h3>
+          <div
+            className={"d-flex flex-wrap justify-content-center " + props.mode}
+            style={{ gap: "10px" }}
+          >
             <span className="skills">FastAPI</span>
             <span className="skills">Django</span>
             <span className="skills">PostgreSQL</span>
@@ -36,8 +45,13 @@ function MySkills(props) {
           </div>
         </div>
         <div className="d-flex flex-column flex-wrap justify-content-center project-card p-2 align-items-center">
-          <h3>Infrastructure & Deployment ☁️</h3>
-          <div className={"d-flex " + props.mode} style={{ gap: "10px" }}>
+          <h3 className="skills-subheader text-center">
+            Infrastructure & Deployment ☁️
+          </h3>
+          <div
+            className={"d-flex flex-wrap justify-content-center " + props.mode}
+            style={{ gap: "10px" }}
+          >
             <span className="skills">AWS EC2</span>
             <span className="skills">AWS Elastic Beanstalk</span>
             <span className="skills">AWS RDS</span>
@@ -45,8 +59,11 @@ function MySkills(props) {
           </div>
         </div>
         <div className="d-flex flex-column flex-wrap justify-content-center project-card p-2 align-items-center">
-          <h3>Dev Tools 🧰</h3>
-          <div className={"d-flex " + props.mode} style={{ gap: "10px" }}>
+          <h3 className="skills-subheader text-center">Dev Tools 🧰</h3>
+          <div
+            className={"d-flex flex-wrap justify-content-center " + props.mode}
+            style={{ gap: "10px" }}
+          >
             <span className="skills">Git</span>
             <span className="skills">GitHub</span>
             <span className="skills">GitLab</span>

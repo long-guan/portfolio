@@ -35,7 +35,7 @@ function Projects(props) {
                 style={{ gap: "5px" }}
               >
                 <span className="skills">React</span>
-                <span className="skills">Tailwind</span>
+                <span className="skills">Tailwind CSS</span>
                 <span className="skills">Django</span>
                 <span className="skills">PostgreSQL</span>
                 <span className="skills">AWS EC2</span>

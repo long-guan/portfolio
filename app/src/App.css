@@ -41,6 +41,11 @@
   color: rgb(13, 202, 240);
 }
 
+#nav-list > a {
+  text-decoration: underline;
+  color: rgb(13, 110, 253);
+}
+
 main.separation > div {
   padding-bottom: 100px;
 }
@@ -75,11 +80,6 @@ main.separation > div {
   font-size: 20px;
   font-weight: bold;
 } */
-
-#nav-list > a {
-  text-decoration: none;
-  color: rgb(13, 110, 253);
-}
 
 #navbar {
   position: fixed;
@@ -350,5 +350,17 @@ main.separation > div {
 
   .name {
     display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .body-container,
+  .navbar-spacing {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .navbar-social {
+    justify-content: center;
   }
 }

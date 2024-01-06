@@ -41,7 +41,7 @@ function Portfolio() {
       <nav id="navbar" className={"fade-in " + mode}>
         <div className="navbar-spacing">
           <NameTitle />
-          <div className="d-flex justify-content-between align-items-center navbar-social">
+          <div className="d-flex align-items-center navbar-social flex-wrap">
             <Navbar />
             <div className="d-flex align-items-center navbar-social">
               <DarkLightMode switchMode={switchMode} darkMode={darkMode} />
