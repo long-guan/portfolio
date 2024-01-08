@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4ee42f31.css",
-    "main.js": "/portfolio/static/js/main.57fa6293.js",
+    "main.css": "/portfolio/static/css/main.6963231e.css",
+    "main.js": "/portfolio/static/js/main.93d0890b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/responsive_stevenspass_compressed.mp4": "/portfolio/static/media/responsive_stevenspass_compressed.24d0934c324672e5cb3c.mp4",
     "static/media/posting_stevenspass_compressed.mp4": "/portfolio/static/media/posting_stevenspass_compressed.26fecc5c816cec21bf92.mp4",
@@ -16,12 +16,12 @@
     "static/media/classic_games.png": "/portfolio/static/media/classic_games.cfa9c895364c310a61f4.png",
     "static/media/LongGuan_Resume.pdf": "/portfolio/static/media/LongGuan_Resume.2a9331f7e209ca82e519.pdf",
     "index.html": "/portfolio/index.html",
-    "main.4ee42f31.css.map": "/portfolio/static/css/main.4ee42f31.css.map",
-    "main.57fa6293.js.map": "/portfolio/static/js/main.57fa6293.js.map",
+    "main.6963231e.css.map": "/portfolio/static/css/main.6963231e.css.map",
+    "main.93d0890b.js.map": "/portfolio/static/js/main.93d0890b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ee42f31.css",
-    "static/js/main.57fa6293.js"
+    "static/css/main.6963231e.css",
+    "static/js/main.93d0890b.js"
   ]
 }
