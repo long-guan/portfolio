@@ -356,8 +356,8 @@ main.separation > div {
 @media screen and (max-width: 390px) {
   .body-container,
   .navbar-spacing {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .navbar-social {
@@ -365,7 +365,7 @@ main.separation > div {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 365px) {
   .project-card-view {
     display: none;
   }

@@ -11,7 +11,7 @@ function Projects(props) {
         Projects 🗂️
       </h2>
       <div className={"d-flex gap-3 flex-column " + props.mode}>
-        <div className="row project-card">
+        <div className="row project-card" style={{ margin: "0" }}>
           <div className="d-flex">
             <img
               style={{ width: "100%", height: "100%" }}
@@ -77,7 +77,7 @@ function Projects(props) {
             </div>
           </div>
         </div>
-        <div className="row project-card">
+        <div className="row project-card" style={{ margin: "0" }}>
           <div className="d-flex">
             <img
               style={{ width: "100%", height: "100%" }}
@@ -135,7 +135,7 @@ function Projects(props) {
             </div>
           </div>
         </div>
-        <div className="row project-card">
+        <div className="row project-card" style={{ margin: "0" }}>
           <div className="d-flex">
             <img
               style={{ width: "100%", height: "100%" }}

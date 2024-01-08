@@ -37,7 +37,7 @@ function ClassicGamesModal() {
   return (
     <div className="link pointer">
       <a style={{ textDecoration: "underline" }} onClick={openModal}>
-        View Features
+        <span className="project-card-view">View</span> Features
       </a>
       <Modal
         isOpen={modalIsOpen}
