@@ -12,19 +12,19 @@ function Projects(props) {
       </h2>
       <div className={"d-flex gap-3 flex-column " + props.mode}>
         <div className="row project-card">
-          <div className="col-4 d-flex">
+          <div className="d-flex">
             <img
               style={{ width: "100%", height: "100%" }}
               src={stevens_pass_imap}
-              alt="page"
+              alt="Stevens Pass iMap home page"
             />
           </div>
-          <div className="col-8 d-flex flex-column justify-content-between">
+          <div className="d-flex flex-column justify-content-between">
             <div className="d-flex flex-column justify-content-between">
               <h4 className="projects-subheader">Stevens Pass iMap</h4>
               <p className="projects-description">
                 Transformed a non-interactive PDF map of Stevens Pass Ski Resort
-                into an interactive CRUD app built with React and Tailwind
+                into an interactive CRUD app built with React and Tailwind CSS
                 frontend with Django and PostgreSQL backend. Backend is deployed
                 on AWS.
               </p>
@@ -38,6 +38,7 @@ function Projects(props) {
                 <span className="skills">Tailwind CSS</span>
                 <span className="skills">Django</span>
                 <span className="skills">PostgreSQL</span>
+                <span className="skills">RESTful API</span>
                 <span className="skills">AWS EC2</span>
                 <span className="skills">AWS RDS</span>
                 <span className="skills">AWS Elastic Beanstalk</span>
@@ -46,14 +47,19 @@ function Projects(props) {
                 <span className="skills">JavaScript</span>
               </div>
               <div>
-                <div className="d-flex gap-3 mt-3 projects-btn">
+                <div
+                  className="d-flex mt-3 projects-btn"
+                  style={{ gap: "5px" }}
+                >
                   <a
                     className="link"
                     target="_blank"
                     href="https://long-guan.github.io/snowstats/"
                     rel="noreferrer"
                   >
-                    <div>View Live App</div>
+                    <div>
+                      <span className="project-card-view">View</span> Live App
+                    </div>
                   </a>
                   <a
                     className="link"
@@ -61,7 +67,9 @@ function Projects(props) {
                     href="https://github.com/long-guan/snowstats"
                     rel="noreferrer"
                   >
-                    <div>View Code</div>
+                    <div>
+                      <span className="project-card-view">View</span> Code
+                    </div>
                   </a>
                   <StevensPassModal />
                 </div>
@@ -70,14 +78,14 @@ function Projects(props) {
           </div>
         </div>
         <div className="row project-card">
-          <div className="col-4 d-flex">
+          <div className="d-flex">
             <img
               style={{ width: "100%", height: "100%" }}
               src={classic_games}
-              alt="page"
+              alt="Long Loved Classic Games home page"
             />
           </div>
-          <div className="col-8 d-flex flex-column justify-content-between">
+          <div className="d-flex flex-column justify-content-between">
             <div className="d-flex flex-column justify-content-between">
               <h4 className="projects-subheader">Long Loved Classic Games</h4>
               <p className="projects-description">
@@ -97,14 +105,19 @@ function Projects(props) {
                 <span className="skills">JavaScript</span>
               </div>
               <div>
-                <div className="d-flex gap-3 mt-3 projects-btn">
+                <div
+                  className="d-flex mt-3 projects-btn"
+                  style={{ gap: "5px" }}
+                >
                   <a
                     className="link"
                     target="_blank"
                     href="https://long-guan.github.io/classic-games/"
                     rel="noreferrer"
                   >
-                    <div>View Live App</div>
+                    <div>
+                      <span className="project-card-view">View</span> Live App
+                    </div>
                   </a>
                   <a
                     className="link"
@@ -112,7 +125,9 @@ function Projects(props) {
                     href="https://github.com/long-guan/classic-games"
                     rel="noreferrer"
                   >
-                    <div>View Code</div>
+                    <div>
+                      <span className="project-card-view">View</span> Code
+                    </div>
                   </a>
                   <ClassicGamesModal />
                 </div>
@@ -121,14 +136,14 @@ function Projects(props) {
           </div>
         </div>
         <div className="row project-card">
-          <div className="col-4 d-flex">
+          <div className="d-flex">
             <img
               style={{ width: "100%", height: "100%" }}
               src={green_beans}
-              alt="deployed-page"
+              alt="Green Beings home page"
             />
           </div>
-          <div className="col-8 d-flex flex-column justify-content-between">
+          <div className="d-flex flex-column justify-content-between">
             <div className="d-flex flex-column justify-content-between">
               <h4 className="projects-subheader">Green Beings</h4>
               <p className="projects-description">
@@ -149,19 +164,22 @@ function Projects(props) {
               >
                 <span className="skills">React</span>
                 <span className="skills">JavaScript</span>
+                <span className="skills">RESTful API</span>
                 <span className="skills">FastAPI</span>
                 <span className="skills">Bootstrap</span>
                 <span className="skills">Docker</span>
                 <span className="skills">PostgreSQL</span>
               </div>
-              <div className="d-flex gap-3 mt-3 projects-btn">
+              <div className="d-flex mt-3 projects-btn" style={{ gap: "5px" }}>
                 <a
                   className="link"
                   target="_blank"
                   href="https://good-coders.gitlab.io/module3-project-gamma/"
                   rel="noreferrer"
                 >
-                  <div>View Live App</div>
+                  <div>
+                    <span className="project-card-view">View</span> Live App
+                  </div>
                 </a>
                 <a
                   className="link"
@@ -169,7 +187,9 @@ function Projects(props) {
                   href="https://github.com/long-guan/green-beings"
                   rel="noreferrer"
                 >
-                  <div>View Code</div>
+                  <div>
+                    <span className="project-card-view">View</span> Code
+                  </div>
                 </a>
               </div>
             </div>
